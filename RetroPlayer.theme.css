@@ -2,7 +2,7 @@
  * @name RetroPlayer
  * @author JDaxmaut
  * @description Dark theme inspired by Ashen music player — real near-black neutrals + gold accent.
- * @version 3.11.0
+ * @version 3.12.0
  * @source https://github.com/JDaxmaut/ashen-player
  */
 
@@ -285,8 +285,33 @@
 [class*="channelTextArea_"] [class*="scrollableContainer_"] {
   background: transparent !important;
 }
+[class*="channelTextArea_"] [class*="scroller_"]:not([class*="auto"]),
+[class*="channelTextArea_"] [class*="scrollerBase_"],
+[class*="channelTextArea_"] [class*="thin_"] {
+  background: transparent !important;
+}
 [class*="placeholder_"] {
   color: #999999 !important;
+}
+
+/* Action buttons above chat input */
+[class*="channelTextArea_"] [class*="attachButton_"] {
+  color: #999999 !important;
+}
+[class*="channelTextArea_"] [class*="attachButton_"]:hover {
+  color: #f7bd48 !important;
+}
+[class*="channelTextArea_"] [class*="button_"]:not([class*="look"]):not([class*="actionButton_"]),
+[class*="channelTextArea_"] [class*="buttonContainer_"] button,
+[class*="channelTextArea_"] button[class*="button_"] {
+  color: #999999 !important;
+  background: transparent !important;
+  border: none !important;
+}
+[class*="channelTextArea_"] [class*="button_"]:not([class*="look"]):not([class*="actionButton_"]):hover,
+[class*="channelTextArea_"] [class*="buttonContainer_"] button:hover,
+[class*="channelTextArea_"] button[class*="button_"]:hover {
+  color: #f7bd48 !important;
 }
 
 /* =====================================================================
