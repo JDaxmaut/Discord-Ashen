@@ -4,7 +4,7 @@
 
 [![BetterDiscord](https://img.shields.io/badge/BetterDiscord-Theme-5865F2?style=flat-square&logo=discord)](https://betterdiscord.app/)
 [![Vencord](https://img.shields.io/badge/Vencord-Theme-5865F2?style=flat-square&logo=discord)](https://vencord.dev/)
-[![Version](https://img.shields.io/badge/version-3.10.1-8B5CF6?style=flat-square)](https://github.com/JDaxmaut/Discord-Ashen)
+[![Version](https://img.shields.io/badge/version-3.11.0-8B5CF6?style=flat-square)](https://github.com/JDaxmaut/Discord-Ashen)
 [![GitHub](https://img.shields.io/badge/GitHub-repo-181717?style=flat-square&logo=github)](https://github.com/JDaxmaut/Discord-Ashen)
 
 ---
