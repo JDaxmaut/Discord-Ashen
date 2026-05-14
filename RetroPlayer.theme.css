@@ -2,7 +2,7 @@
  * @name RetroPlayer
  * @author JDaxmaut
  * @description Dark theme inspired by Ashen music player — real near-black neutrals + gold accent.
- * @version 3.10.1
+ * @version 3.11.0
  * @source https://github.com/JDaxmaut/ashen-player
  */
 
@@ -126,7 +126,7 @@
 }
 
 /* =====================================================================
-   SERVER LIST
+   GLOBAL
    ===================================================================== */
 [class*="guilds_"],
 [class*="guilds_"] [class*="scroller_"] {
@@ -737,4 +737,48 @@
 }
 [class*="spinner_"] path {
   fill: #f7bd48 !important;
+}
+
+/* =====================================================================
+   GLASSMORPHISM — applied last to override solid backgrounds
+   ===================================================================== */
+[class*="root_"]:has(>[class*="header_"]),
+[class*="userPopout_"],
+[class*="contextMenu_"],
+[class*="tooltip_"],
+[class*="autocomplete_"],
+[class*="emojiPicker_"],
+[class*="gifPicker_"],
+[class*="quickswitcher_"],
+[class*="uploadDropModal_"],
+[class*="searchResultsWrap_"],
+[class*="callContainer_"] [class*="container_"]:has(button),
+[class*="callContainer_"] > [class*="container_"],
+[class*="callContainer_"] [class*="actionButtons_"]:not(button),
+[class*="actionButtons_"]:not(button) {
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+}
+[class*="root_"]:has(>[class*="header_"]),
+[class*="userPopout_"],
+[class*="contextMenu_"],
+[class*="tooltip_"],
+[class*="autocomplete_"],
+[class*="emojiPicker_"],
+[class*="gifPicker_"],
+[class*="quickswitcher_"],
+[class*="uploadDropModal_"] {
+  background: rgba(10, 10, 10, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+[class*="searchResultsWrap_"] {
+  background: rgba(14, 14, 14, 0.8) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+[class*="callContainer_"] [class*="container_"]:has(button),
+[class*="callContainer_"] > [class*="container_"],
+[class*="callContainer_"] [class*="actionButtons_"]:not(button),
+[class*="actionButtons_"]:not(button) {
+  background: rgba(12, 12, 12, 0.65) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
 }
