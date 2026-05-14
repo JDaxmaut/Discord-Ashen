@@ -11,10 +11,6 @@
 
 ## Preview
 
-| Channel View | Settings |
-|:---:|:---:|
-| _(screenshot)_ | _(screenshot)_ |
-
 ---
 
 ## Palette
