@@ -2,7 +2,7 @@
  * @name RetroPlayer
  * @author JDaxmaut
  * @description Dark theme inspired by Ashen music player — real near-black neutrals + gold accent.
- * @version 3.13.0
+ * @version 3.14.0
  * @source https://github.com/JDaxmaut/ashen-player
  */
 
@@ -316,7 +316,9 @@
 
 /* Chat action menu (upload file, create event, etc) */
 [class*="menu_"]:has([class*="item_"]),
-[class*="flexible_"] {
+[class*="flexible_"],
+[class*="menu_"] [class*="contentWrapper_"],
+[class*="flexible_"] [class*="contentWrapper_"] {
   background: rgba(10, 10, 10, 0.75) !important;
   backdrop-filter: blur(24px) !important;
   -webkit-backdrop-filter: blur(24px) !important;
