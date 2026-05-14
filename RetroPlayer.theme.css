@@ -2,7 +2,7 @@
  * @name RetroPlayer
  * @author JDaxmaut
  * @description Dark theme inspired by Ashen music player — real near-black neutrals + gold accent.
- * @version 3.12.0
+ * @version 3.13.0
  * @source https://github.com/JDaxmaut/ashen-player
  */
 
@@ -312,6 +312,35 @@
 [class*="channelTextArea_"] [class*="buttonContainer_"] button:hover,
 [class*="channelTextArea_"] button[class*="button_"]:hover {
   color: #f7bd48 !important;
+}
+
+/* Chat action menu (upload file, create event, etc) */
+[class*="menu_"]:has([class*="item_"]),
+[class*="flexible_"] {
+  background: rgba(10, 10, 10, 0.75) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  border-radius: 8px !important;
+}
+[class*="menu_"] [class*="item_"] {
+  color: #bbbbbb !important;
+  border-radius: 4px !important;
+}
+[class*="menu_"] [class*="item_"]:hover {
+  background: #1a1a1a !important;
+  color: #dddddd !important;
+}
+[class*="menu_"] [class*="item_"] [class*="icon_"],
+[class*="menu_"] [class*="item_"] [class*="iconContainer_"] {
+  color: #999999 !important;
+}
+[class*="menu_"] [class*="item_"]:hover [class*="icon_"],
+[class*="menu_"] [class*="item_"]:hover [class*="iconContainer_"] {
+  color: #f7bd48 !important;
+}
+[class*="menu_"] [class*="separator_"] {
+  background: #1a1a1a !important;
 }
 
 /* =====================================================================
